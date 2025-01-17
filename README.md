@@ -1,4 +1,7 @@
-# figma-plugin-quickstart-setup
+# Figma Plugin Quickstart Setup
+
+This repository provides a simple template to help developers quickly set up and start building their own Figma plugins. It includes a basic plugin structure, along with the necessary configuration files, so you can jump into development without unnecessary setup.
+
 
 Below are the steps to get your plugin running. You can also find instructions at:
 
@@ -6,10 +9,31 @@ Below are the steps to get your plugin running. You can also find instructions a
 
 This plugin template uses Typescript and NPM, two standard tools in creating JavaScript applications.
 
-First, download Node.js which comes with NPM. This will allow you to install TypeScript and other
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- [Figma Desktop App](https://www.figma.com/downloads/)
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [npm](https://www.npmjs.com/)
+- [Figma Plugin Development Environment](https://www.figma.com/plugin-docs/)
+
+
+ Node.js comes with NPM. This will allow you to install TypeScript and other
 libraries. You can find the download link here:
 
   https://nodejs.org/en/download/
+
+  ## Getting Started
+
+Follow these steps to set up your local development environment and start working with the template:
+
+ **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/your-username/figma-plugin-quickstart-setup.git
+   cd figma-plugin-quickstart-setup
+
 
 Next, install TypeScript using the command:
 
